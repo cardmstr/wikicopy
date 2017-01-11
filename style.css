@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+.main-container{
+  margin: 45px auto 15px auto;
+  width: 80%;
+  font-size: 23px;
+  font-family: sans-serif;
+  max-width: 850px;
+}
+
+.footer-text{
+  text-align: center;
+  font-size: 12px;
+}
+
+.legal-container{
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  display: flex;
+}
+
+.legal-item{
+  margin: 10px;
+}
+
+.go-right{
+  text-align: right;
+}
+
+.images-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image {
+  padding: 25px;
+}
+
+.image img{
+  height:125px;
+  flex: 1;
+}
